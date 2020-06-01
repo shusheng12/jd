@@ -1,0 +1,30 @@
+{
+  "id": "1826355",
+  "name": "jd",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "627031",
+      "name": "shouji",
+      "font_class": "shouji",
+      "unicode": "e6d5",
+      "unicode_decimal": 59093
+    },
+    {
+      "icon_id": "508247",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "7148955",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    }
+  ]
+}
