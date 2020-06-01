@@ -62,6 +62,7 @@ export default {
 @import '~@/assets/mixins.styl';
 
 .top {
+  margin 10px 0;
   background-color: #f1f1f1;
   font-size: 12px;
   height: 30px;
