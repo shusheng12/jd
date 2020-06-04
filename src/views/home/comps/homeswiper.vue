@@ -23,7 +23,9 @@
       <swiper-slide>
         <img src="@/assets/img/lunbotu06.jpg" alt />
       </swiper-slide>
-      <div class="swiper-pagination" slot="pagination"></div>
+      <div class="swiper-pagination" slot="pagination"></div> 
+       <div class="swiper-button-prev"></div><!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+    <div class="swiper-button-next"></div><!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
     </swiper>
   </div>
 </template>
@@ -43,16 +45,16 @@ export default {
         pagination: {
           el: ".swiper-pagination"
         },
-        autoplay: {
-          delay:1000,
-          stopOnLastSlide: false,
-          disableOnInteraction: true
-        },
+        autoplay:true,
         loop : true,
+        effect : 'cube',
+        clickable :true,
         // Some Swiper option/callback...
+
+        
       }
     };
-  }
+  },
 };
 </script>
 
@@ -64,5 +66,8 @@ export default {
   width: 730px;
   overflow hidden
   margin-left 10px
+}
+.swiper-button-prev{
+  position absolute
 }
 </style>
