@@ -10,6 +10,8 @@
     </div>
     <time-limit />
     <home-key />
+    <clothing/>
+    <div style='height:2000px'></div>
   </div>
 </template>
 <script>
@@ -21,6 +23,7 @@ import homeSwiper from './comps/homeswiper'
 import homeNews from './comps/homenews'
 import timeLimit from './comps/limit'
 import homeKey from './comps/key'
+import Clothing from './floor/clothing'
 export default {
   components:{
     homeHeaderTop,
@@ -30,7 +33,8 @@ export default {
     homeSwiper,
     homeNews,
     timeLimit,
-    homeKey
+    homeKey,
+    Clothing
   }
 };
 </script>
