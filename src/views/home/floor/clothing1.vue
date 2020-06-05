@@ -2,7 +2,7 @@
   <div class="wrap">
 
     <div class="title">
-       <div class="key"> <span>1F</span> 服装鞋包</div>
+       <div class="key"> <span>2F</span> 服装鞋包</div>
        <div class="key_item">
          <ul>
            <li><a href="javascript:;" @mousemove="ative=1"  :class="{ative:ative==1}">大牌</a></li>
@@ -140,9 +140,10 @@ export default {
 .wrap{
   mainwidth();
   height 800px
+
   .title{
-    height 40px
     width 100%
+    height 40px
     line-height 40px
     overflow hidden
     border-bottom 2px solid red
